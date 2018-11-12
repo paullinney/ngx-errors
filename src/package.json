@@ -1,17 +1,17 @@
 {
-  "name": "@ultimate/ngxerrors",
-  "version": "0.0.0",
+  "name": "@paullinney-sds/ngxerrors",
+  "version": "1.4.2",
   "description": "A declarative validation module for reactive forms",
-  "main": "bundle/ultimate.ngxerrors.umd.js",
+  "main": "bundle/paullinney-sds.ngxerrors.umd.js",
   "module": "index.js",
   "types": "index.d.ts",
-  "author": "Ultimate Angular",
+  "author": "Paul Linney - Skills Development Scotland (SDS)",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/UltimateAngular/ngxerrors.git",
+    "url": "https://github.com/paullinney/ngx-errors.git",
     "type": "git"
   },
   "peerDependencies": {
-    "@angular/forms": "^2.3.1 || ^5.0.0"
+    "@angular/forms": "^7.0.3"
   }
 }

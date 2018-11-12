@@ -1,11 +1,11 @@
 {
-  "name": "@ultimate/ngxerrors",
-  "version": "0.0.0",
+  "name": "@paullinney-sds/ngxerrors",
+  "version": "1.4.2",
   "description": "A declarative validation module for reactive forms",
-  "author": "Ultimate Angular",
+  "author": "Paul Linney - Skills Development Scotland (SDS)",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/UltimateAngular/ngxerrors.git",
+    "url": "https://github.com/paullinney/ngx-errors.git",
     "type": "git"
   },
   "scripts": {
@@ -22,8 +22,8 @@
     "test:watch": "karma start"
   },
   "devDependencies": {
-    "@angular/compiler": "7.0.3",
-    "@angular/compiler-cli": "7.0.3",
+    "@angular/compiler": "^7.0.3",
+    "@angular/compiler-cli": "^7.0.3",
     "@types/jasmine": "2.5.46",
     "@types/karma": "0.13.34",
     "@types/node": "^7.0.12",
@@ -49,14 +49,14 @@
     "webpack-dev-server": "2.4.5"
   },
   "dependencies": {
-    "@angular/animations": "7.0.3",
-    "@angular/common": "7.0.3",
-    "@angular/core": "7.0.3",
-    "@angular/forms": "7.0.3",
-    "@angular/http": "7.0.3",
-    "@angular/platform-browser": "7.0.3",
-    "@angular/platform-browser-dynamic": "7.0.3",
-    "@angular/router": "7.0.3",
+    "@angular/animations": "^7.0.3",
+    "@angular/common": "^7.0.3",
+    "@angular/core": "^7.0.3",
+    "@angular/forms": "^7.0.3",
+    "@angular/http": "^7.0.3",
+    "@angular/platform-browser": "^7.0.3",
+    "@angular/platform-browser-dynamic": "^7.0.3",
+    "@angular/router": "^7.0.3",
     "core-js": "2.4.1",
     "reflect-metadata": "0.1.10",
     "rxjs": "6.3.3",
