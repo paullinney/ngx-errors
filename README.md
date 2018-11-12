@@ -1,8 +1,3 @@
-[![Build Status][circle-badge]][circle-badge-url]
-[![Dependency Status][david-badge]][david-badge-url]
-[![devDependency Status][david-dev-badge]][david-dev-badge-url]
-[![npm][npm-badge]][npm-badge-url]
-
 <h1 align="center">
 <img width="40" valign="bottom" src="https://angular.io/assets/images/logos/angular/angular.svg">
 ngx-errors
@@ -11,15 +6,10 @@ ngx-errors
 
 ---
 
-<a href="https://ultimateangular.com" target="_blank"><img src="https://ultimateangular.com/assets/img/banners/ua-github.svg"></a>
-
----
-
 <div align="center" markdown="1">
 <a href="#installation">Installation</a> |
 <a href="#setup">Setup</a> |
-<a href="#documentation">Documentation</a> |
-<a href="http://plnkr.co/edit/JS0jSnelnLY9IbzFySfl?p=preview">Live demo</a>
+<a href="#documentation">Documentation</a>
 </div>
 
 ---
@@ -67,11 +57,11 @@ Check out the documentation below for all the syntax we provide.
 ### Installation
 
 ```bash
-yarn add @ultimate/ngxerrors
+yarn add @paullinney-sds/ngxerrors
 
 # OR
 
-npm i @ultimate/ngxerrors
+npm i @paullinney-sds/ngxerrors
 ```
 
 ### Setup
@@ -79,7 +69,7 @@ npm i @ultimate/ngxerrors
 Just add ngx-errors to your module:
 
 ```js
-import { NgxErrorsModule } from '@ultimate/ngxerrors';
+import { NgxErrorsModule } from '@paullinney-sds/ngxerrors';
 
 @NgModule({ imports: [ NgxErrorsModule ] })
 ```
@@ -364,6 +354,12 @@ The `errors` property returns the object associated with any active errors. This
 ```
 
 > The errors returned are identical to Angular's FormControl API
+
+# History
+
+Forked from oringinal repository by Todd Motto
+
+ `https://github.com/UltimateAngular/ngx-errors`
 
 # Contributing
 
